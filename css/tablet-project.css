@@ -1,0 +1,43 @@
+@media (max-width: 992px) {
+  .timeline {
+    grid-column: 3/3;
+    grid-row: 1/2;
+  }
+  .project {
+    display: block;
+    /* grid-template-columns: 1fr;
+    justify-content: center; */
+    width: 100%;
+  }
+  .goals,
+  .teams,
+  .timelines,
+  .scope-content,
+  .primarys {
+    grid-template-columns: 1fr;
+  }
+  .goals .icons {
+    justify-self: center;
+    width: 10% !important;
+  }
+  .teams .icons {
+    justify-self: center;
+    width: 10% !important;
+  }
+  .timelines .icons {
+    justify-self: center;
+  }
+  .primarys .icons {
+    justify-self: center;
+  }
+  p {
+    font-size: 1rem;
+  }
+  .goal,
+  .team,
+  .timeline,
+  .scopes,
+  .primary {
+    margin: 10px;
+  }
+}

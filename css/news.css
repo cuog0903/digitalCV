@@ -1,0 +1,81 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  line-height: 1.4;
+  color: #444;
+}
+nav {
+  padding: 20px;
+  background-color: aqua;
+  margin-top: 10px;
+}
+nav a:link {
+  text-decoration: none;
+}
+.project {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 10px;
+  margin: 10px auto;
+  width: 98%;
+  align-items: stretch;
+}
+.timeline,
+.goal,
+.team,
+.scopes,
+.primary {
+  background-color: #fff;
+  padding: 10px;
+}
+.timeline {
+  grid-column: 3/4;
+  grid-row: 1/3;
+}
+.goals,
+.teams,
+.timelines,
+.primarys {
+  padding: 10px 40px;
+  border-bottom: 1px gray solid;
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  align-items: center;
+  column-gap: 10px;
+}
+.h2 {
+  color: blue;
+  border-bottom: 1px gray solid;
+  padding: 10px;
+}
+.circle {
+  background: #e9a2e4;
+  border: 0.5px solid #0f1c3f;
+  border-radius: 50%;
+  height: 2em;
+  width: 2em;
+  font-weight: bold;
+  color: #fff;
+  font-size: 1em;
+  padding: auto;
+  align-items: center;
+  display: flex;
+}
+.number {
+  align-items: center;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  justify-content: center;
+}
+.scope-content {
+  padding: 10px 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: start;
+  column-gap: 10px;
+}

@@ -1,0 +1,93 @@
+@media (max-width: 768px) {
+  /* Navigation */
+  .nav-info {
+    display: none;
+  }
+  /* About */
+
+  #personal-info {
+    padding: 30px 20px 20px 20px;
+  }
+  #personal-info .section-title {
+    font-size: 3vw;
+    font-weight: bold;
+  }
+  #personal-info .info {
+    font-size: 2vw;
+    padding: 0;
+  }
+  #target {
+    padding: 30px 20px 20px 20px;
+  }
+  #target .section-title {
+    font-size: 3vw;
+    font-weight: bold;
+  }
+  #target p {
+    font-size: 2vw;
+    padding: 0;
+  }
+  /* Job-info */
+  #job-info .cont-jobInfo {
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    width: 100%;
+    margin: 10x auto;
+    column-gap: 10px;
+  }
+  #job-info .cont-jobInfo div {
+    border: 0.5px solid #a0a0a0;
+    padding: 30px 20px 20px 20px;
+  }
+  #job-info ul {
+    padding-left: 0;
+    font-size: 2vw;
+  }
+  .cont-jobInfo .title-icon {
+    font-size: 2vw;
+  }
+  .ic-toolbox,
+  .ic-pencil,
+  .ic-telescope,
+  .ic-mic,
+  .ic-tools-2 {
+    font-size: 5vw;
+  }
+  /* Certificate */
+  .cont-certificate {
+    width: 100% !important;
+  }
+  .certificate div {
+    grid-template-columns: 1fr;
+  }
+  .certificate div:nth-child(2) {
+    border-left: 1px solid #d6c08d;
+  }
+  .certificate span:nth-child(2) {
+    border-left: none !important;
+  }
+  .certificate img {
+    width: 45vw !important;
+  }
+  /* Project */
+  .project {
+    column-gap: 10px;
+  }
+  .container-project {
+    width: 100% !important;
+  }
+  .project-title,
+  .project-info,
+  .project table {
+    font-size: 2vw;
+  }
+  .project-info {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: start;
+  }
+  .project-info div {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
